@@ -1,32 +1,32 @@
 //Tooltipp Einstellung
 
 tippy('#backButton', {
-    content: 'Zurück zur Startseite',
+    content: 'Back',
   });
 tippy('#importButton', {
-    content: 'JSON Importieren',
+    content: 'Import JSON',
   });
 tippy('#exportButton', {
-    content: 'JSON Exportieren',
+    content: 'Export JSON',
   });
 tippy('#printPageButton', {
-    content: 'Zur Druckübersicht',
+    content: 'Print',
   });
 tippy('#canvasButton', {
-    content: 'Zurück zur Canvas',
+    content: 'Back to Canvas',
   });
 tippy('#checkButton', {
-    content: 'Übersicht',
+    content: 'Overview',
   });
 tippy('#nextButton', {
-    content: 'Weiter',
+    content: 'Next',
   });
 tippy('#safeButton', {
-    content: 'Speichern',
+    content: 'Safe',
   });
 tippy('#videoButton', {
     content: 'Infovideo abspielen',
   });
 tippy('#printButton', {
-    content: 'Drucken',
+    content: 'Print',
   });
