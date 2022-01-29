@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../../style.css">
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<title>Prototype</title>
+</head>
+<body onload="loadControllPara()">
+	<div class="container">
+	  <div class="TitelArea">
+		  	<h2>Übersicht</h2>
+	  </div>
+	  <div class="SubtitelArea">
+	  		<h3>Bitte kontrolliere noch einmal deine zuvor getätigten Eingaben. Wenn du mit allem einverstanden bist, speichere unten rechts deine Daten.</h3>
+	  </div>
+	<div class="InputArea">
+	  	<div class="wrapper">
+	  		<textarea class="WholePageArea" id="controllpage"  maxlength="100"></textarea>
+	  	</div>
+  	</div>
+	  <div class="InformationArea">
+		   <div class="InformationText">
+			   	<b>Kontrolle</b> <br>
+			  	<label>Die gewählte(n) Methode(n) und/oder Technik(en) passen zu den jeweiligen Forschungsfragen bzw. Forschungszielen.</label> <br> <br>
+				<label>Die Zuordnung von Methode(n) und/oder Technik(en) zu den umrissenen Arbeitsschritten ist verständlich.</label> <br> <br>
+		   		<label>Mögliche beim Einsatz der Methode(n) und/oder Technik(en) zu verwendende Werkzeuge oder Hilfsmittel werden genannt.</label> <br> <br>
+		   		<label>Mögliche Übergänge zwischen Methoden und/oder Techniken werden deutlich.</label> <br> <br>
+		   		<label>Optional: Falls etablierte Vorgehensmodelle für den Einsatz einer Methode oder Technik existieren, werden diese angegeben.</label> <br> <br>
+		   		<label>Optional: Mögliche alternative Arbeitsschritte, Vorgehensweisen oder alternativ einzusetzende Methoden und/oder Techniken werden aufgeführt.</label> <br> <br>
+		   </div> 
+ 		</div>
+	  <div class="Navigation-Bar">
+	  	<div class="wrappermarginmid">
+				<div class="persNavbar">
+				 	<a id="canvasButton" style="float:left" href="../canvas.html"><img alt="" src="../../icons/back.png"></a> 
+			 	 	<a href="methods1.html"><img alt="" src="../../icons/1.png"></a> 
+				  	<a class="active" href="methodSave.html"><img alt="" src="../../icons/notepad.png"></a> 
+<!-- 				  	<a style="float:right" href="../video.html"><img alt="" src="../../pictures/youtubeIcon.png"></a> 
+				  	<a style="float:right" href=""><img alt="" src="../../pictures/speakerIcon.png"></a>  -->
+				  	<a id="safeButton" style="float:right" onclick="save()"><img alt="" src="../../icons/floppyIcon.png"></a>
+				</div>
+			</div> 
+	  </div> 	
+	</div>
+	<script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+	<script src="../../controller/tooltipController.js"></script>
+	<script src="../../controller/methodController.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../../style.css">
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<title>Prototype</title>
+</head>
+<body onload="loadparameter()">
+	<div class="container">
+	  <div class="TitelArea">
+		  	<h2>Problemstellung</h2>
+	  </div>
+	  <div class="SubtitelArea">
+	  		<h3>Definiere deine Problemstellung</h3>
+	  </div>
+	  <div class="InputArea">
+	  <div class="wrapper">
+	  	<textarea class="WholePageArea" name="problem" id="problem"  maxlength="200"></textarea>
+	  	</div>
+	  </div>
+	  <div class="InformationArea">
+	   <div class="InformationText">
+			<b>Leitfragen</b> <br>
+		  	<label>Welches Problem möchte ich genauer verstehen bzw. lösen aus den Problemen des Bereichs?</label> <br> <br>
+			<label>Wie ist das gewählte Problem im Forschungsthema eingebettet?</label> <br> <br>
+	   		<label>Für wen besteht das Problem? Wann? Warum?</label> <br> <br>
+	   		<label>Ist das Problem in weitere Problem zerlegbar?</label> <br> <br>
+	   		
+		   	<b>Beispiele:</b> <br>
+		  	<label>Lernerfolg für Studierende in der digitalen Gruppenarbeit sicherstellen</label> <br> <br>
+			<label>Gestaltung eines prototypischen Tools</label> <br> <br>
+	   </div>
+	  </div>
+  		<div class="Navigation-Bar">
+	  		<div class="wrappermarginmid">
+				<div class="persNavbar">
+				 	<a id="canvasButton" style="float:left" href="../canvas.html" onclick="saveInSession()"><img alt="" src="../../icons/back.png"></a> 
+			 	 	<a class="active" href="problem1.html" onclick="saveInSession()"><img alt="" src="../../icons/1.png"></a> 
+				  	<a id="checkButton" href="problemSave.html" onclick="saveInSession()"><img alt="" src="../../icons/notepad.png"></a> 
+				  	<a id="nextButton" href="problemSave.html" onclick="saveInSession()"><img alt="" src="../../icons/right.png"></a>
+				  	<!-- <a style="float:right" href="../video.html" onclick="saveInSession()"><img alt="" src="../../pictures/youtubeIcon.png"></a> 
+				  	<a style="float:right" href="" onclick="saveInSession()"><img alt="" src="../../pictures/speakerIcon.png"></a>  -->
+				</div>
+			</div> 
+		</div>  	
+	</div>
+	<script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+	<script src="../../controller/tooltipController.js"></script>
+	<script type="text/javascript" src="../../controller/problemController.js"></script>
+</body>
+</html>
