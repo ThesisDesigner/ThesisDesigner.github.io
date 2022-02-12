@@ -7,7 +7,7 @@ function loadparameter(){
 		document.getElementById("lblquestion").innerHTML = sessionStorage.getItem("questions");
 	}
 	if(sessionStorage.getItem("questions") == "" || sessionStorage.getItem("questions") == "undefined" || sessionStorage.getItem("questions") == null){
-		document.getElementById("lblquestion").innerHTML = "Die Forschungsfrage ist noch nicht definiert.";
+		document.getElementById("lblquestion").innerHTML = "The research question is not defined.";
 	}
 }
 	
