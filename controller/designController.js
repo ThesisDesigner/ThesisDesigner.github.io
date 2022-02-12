@@ -16,13 +16,13 @@ function loadControllPara(){
 				document.getElementById("lblproblem").innerHTML = sessionStorage.getItem("problem")
 			}
 			if(sessionStorage.getItem("problem") == "" || sessionStorage.getItem("problem") == "undefined" || sessionStorage.getItem("problem") == null){
-				document.getElementById("lblproblem").innerHTML = "Das Problem ist noch nicht definiert.";
+				document.getElementById("lblproblem").innerHTML = "The research problem is not defined.";
 			}
 			if(sessionStorage.getItem("questions")){
 				document.getElementById("lblquestion").innerHTML = sessionStorage.getItem("questions")
 			}
 			if(sessionStorage.getItem("questions") == "" || sessionStorage.getItem("questions") == "undefined" || sessionStorage.getItem("questions") == null){
-				document.getElementById("lblquestion").innerHTML = "Die Forschungsfrage ist noch nicht definiert.";
+				document.getElementById("lblquestion").innerHTML = "The research question is not defined.";
 			}
 			if(sessionStorage.getItem("design")){
 				document.getElementById("design").innerHTML = sessionStorage.getItem("design")
