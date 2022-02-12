@@ -6,7 +6,7 @@
 				document.getElementById("lblallProblems").innerHTML = sessionStorage.getItem("problem");
 			}
 			if(sessionStorage.getItem("problem") == "" || sessionStorage.getItem("problem") == "undefined" || sessionStorage.getItem("problem") == null){
-				document.getElementById("lblallProblems").innerHTML = "Das Problem ist noch nicht definiert. Bitte unter Problemstellung anlegen.";
+				document.getElementById("lblallProblems").innerHTML = "The research problem is not defined";
 			}
 		 
 	 }
